@@ -1,0 +1,23 @@
+image:
+    file: .gitpod.Dockerfile
+
+tasks:
+    - before: |
+          npm install -g sfdx-cli
+          npm install
+
+vscode:
+    extensions:
+        - dbaeumer.vscode-eslint
+        - esbenp.prettier-vscode
+        - redhat.vscode-xml
+        - eamodio.gitlens
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-core-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-apex-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-apex-debugger-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-apex-replay-debugger-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-lightning-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-lwc-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-visualforce-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce.salesforcedx-vscode-soql-52.16.0.vsix
+        - https://bngeneral.s3.us-west-2.amazonaws.com/exts/salesforce-vscode-slds-1.4.8.vsix
