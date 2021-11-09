@@ -1,0 +1,3 @@
+sfdx force:auth:web:login --instanceurl https://login.salesforce.com
+sfdx force:org:display -u telanfi@wise-panda-1df408.com --verbose
+sfdx auth:sfdxurl:store -f data/auth/th.txt -a TH
